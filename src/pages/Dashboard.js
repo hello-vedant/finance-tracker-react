@@ -107,7 +107,7 @@ function Dashboard() {
       };
 
       document.addEventListener('mousedown', handleOutsideClickOrScroll);
-      window.addEventListener('scroll', handleOutsideClickOrScroll);
+      // window.addEventListener('scroll', handleOutsideClickOrScroll);
 
       return () => {
         document.removeEventListener('mousedown', handleOutsideClickOrScroll);
